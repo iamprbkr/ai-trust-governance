@@ -2,6 +2,22 @@
 
 Reproduction repository for the paper "Cyber Trust by Design: An AI-Driven Governance Model for Digital Resilience" (2026).
 
+## Paper Summary
+
+AI governance is fragmented. Five major standards exist — NIST AI RMF, ISO/IEC 42001, MITRE ATLAS, OWASP GenAI, EU AI Act — each covering part of the problem. None covers the whole, and none produces quantitative trust scores.
+
+This paper presents a three-layer governance architecture (Risk and Ethics, Technical Trust, Organizational Assurance) that maps these standards into one metric system. Six trust dimensions — transparency, fairness, robustness, privacy, explainability, accountability — aggregate into a composite score **T**, extended with a four-factor resilience model.
+
+**Key results:**
+- Proposed framework: **T = 0.76 ± 0.03**
+- NIST-only baseline: T = 0.62
+- OWASP-only baseline: T = 0.58
+- Improvement is statistically significant (paired t-test, p < 0.01, Cohen's d > 2.0)
+- Sector overlays for BFSI, healthcare, and energy tune weights to domain priorities
+- Agentic AI extension addresses tool authorization and memory integrity
+
+Cross-framework integration beats any single standard applied alone.
+
 ## Quick Start
 
 ```bash
